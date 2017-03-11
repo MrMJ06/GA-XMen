@@ -1,0 +1,10 @@
+true,Lobezno,9,2,2,2,2,false
+true,Ciclope,3,7,1,2,1,false
+true,Tormenta,3,5,5,3,2,false
+true,El hombre de hielo,3,1,7,3,1,false
+true,Profesor X,3,3,3,8,1,true
+false,Magneto,3,2,2,7,1,true
+false,Apocalipsis,7,3,2,3,1,false
+false,Mistica,3,1,2,7,1,false
+false,Dientes de sable,8,3,3,2,1,false
+false,Dark Phoenix,2,7,1,2,1,false
