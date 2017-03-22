@@ -52,11 +52,12 @@ public class ProblemaXmenAG implements ProblemaAGIndex<List<Integer>>{
 			Integer caractMutante = mutante.getSumaCaracteristicas();
 			Integer caractXmen = Xmen.getSumaCaracteristicas();
 			
-			if(caractMutante<=caractXmen){
+			if(caractMutante<caractXmen){
 				VX++;
-			}else if(caractMutante>caractXmen){
-				P++;
 			}
+//			}else if(caractMutante>=caractXmen){
+//				P++;
+//			}
 			if(Xmen.getNumBatallas()<getNumBatallasXmen(lc, Xmen)){
 				P++;
 			}
@@ -109,7 +110,10 @@ public class ProblemaXmenAG implements ProblemaAGIndex<List<Integer>>{
 		
 		return listaMutantes.size();
 	}
-	
+	public Integer getMax(int index){
+		
+		return listaXmen.size()-1;
+	}
 	
 
 	

@@ -30,7 +30,7 @@ public class TestXmenAG {
 		System.out.println("Solución:");
 		
 		ProblemaXmenAG p = ProblemaXmenAG.create("Mutantes.txt");
-		AlgoritmoAG a = new AlgoritmoAG(ChromosomeType.IndexPermutation, p);
+		AlgoritmoAG a = new AlgoritmoAG(ChromosomeType.IndexRange, p);
 		a.ejecuta();
 		IndexChromosome cr = ChromosomeFactory.asIndex(a.getBestFinal());
 		
